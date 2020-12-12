@@ -10,6 +10,7 @@ echo "Starting Jekyll build"
 ####################################################
 
 chmod -R a+w /github/workspace
+pushd ./site/product-site
 
 ####################################################
 # Build the Jekyll site
